@@ -1,0 +1,1 @@
+for _ in[i:=input]*int(i()):n=int(i());print(n*n-n+2)

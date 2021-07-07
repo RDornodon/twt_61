@@ -1,0 +1,1 @@
+for _ in[I:=input]*int(I()):P,S,x,n,h,w=[],0,*map(int,(I()+' '+I()).split());n*=x*10;[P.append((r,c))if v<'A'else(S:=(r,c))for r in range(h+2)for c,v in enumerate(I())if v in'*A'];print(f'{n>=min([abs(S[0]-q[0])+abs(S[1]-q[1])for q in P])if P and S else 0>1}'.lower())
